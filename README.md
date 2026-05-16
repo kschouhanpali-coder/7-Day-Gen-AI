@@ -1,16 +1,38 @@
-# React + Vite
+# 7-Day Generative AI Masterclass
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the source code for the **7-Day Generative AI Masterclass** platform.
 
-Currently, two official plugins are available:
+## 🚀 Overview
+A futuristic, high-fidelity learning platform designed to take you from zero to expert in Generative AI in just one week.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React.js + Vite
+- **Styling**: Vanilla CSS (Cybernetic & Futuristic Theme)
+- **Icons**: Custom SVG icons
+- **Deployment Ready**: Fully responsive and optimized for production.
 
-## React Compiler
+## 📅 Curriculum
+- **Day 1**: Foundations & Architecture
+- **Day 2**: Large Language Models (LLMs)
+- **Day 3**: Image & Video Synthesis
+- **Day 4**: Agentic Frameworks
+- **Day 5**: Fine-tuning & Optimization
+- **Day 6**: Enterprise Solutions
+- **Day 7**: Future Horizons & Projects
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚙️ Setup & Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kschouhanpali-coder/7-Day-Gen-AI.git
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📄 License
+This project is for educational purposes.
