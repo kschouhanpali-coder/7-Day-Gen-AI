@@ -144,7 +144,7 @@ const DAYS = [
     title: "Production Scale",
     emoji: "🚀",
     topic: "Scaling AI Products",
-    image: "images/day1.png",
+    image: "images/day7.png",
     summary: `Deploying AI products requires careful management of LLMOps—the pipeline of testing, monitoring, and optimizing models for real-world reliability. Day 7 focuses on the 'final mile' of AI development: making your application available to users. This involves choosing the right hosting platform, setting up safety guardrails to prevent misuse, and implementing evaluation metrics to ensure the model stays accurate as it scales.`,
     advantages: ["Consistent performance for thousands of users", "Cost-effective scaling via optimization", "Enhanced security and content safety", "Real-world impact through deployment"],
     disadvantages: ["High ongoing maintenance costs", "Monitoring Gen AI is notoriously difficult", "Model drift over time", "Security risks like prompt injection"],
