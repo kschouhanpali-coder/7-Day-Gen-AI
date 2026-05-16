@@ -264,6 +264,12 @@ const STYLES = `
 const App = () => {
   const [activeDayId, setActiveDayId] = useState(1);
   const activeDay = DAYS.find(d => d.id === activeDayId);
+  
+  // Helper to get correct image path for GitHub Pages
+  const getImagePath = (path) => {
+    const base = import.meta.env.BASE_URL;
+    return `${base}${path}`;
+  };
 
   return (
     <div className="min-h-screen ai-grid flex flex-col md:flex-row">
@@ -329,7 +335,7 @@ const App = () => {
 
           <div className="relative">
              <div className="absolute -inset-10 bg-cyan-500/5 blur-[100px] rounded-full" />
-             <img src={activeDay.image} alt={activeDay.title} className="day-image relative z-10 rounded-sm" />
+             <img src={getImagePath(activeDay.image)} alt={activeDay.title} className="day-image relative z-10 rounded-sm" />
              <div className="absolute top-4 right-4 bg-black/80 backdrop-blur px-3 py-1 font-mono text-[9px] text-cyan-500 border border-cyan-500/30 z-20">
                RECON_INTEL_ACTIVE
              </div>
