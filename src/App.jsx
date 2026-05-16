@@ -296,7 +296,7 @@ const App = () => {
                   <span className="text-lg opacity-80">{day.emoji}</span>
                   <div>
                     <div className="mono-label !text-[0.6rem]">NODE_0{day.id}</div>
-                    <div className={`text-sm font-semibold tracking-tight ${isActive ? 'text-white' : 'text-slate-500'}`}>
+                    <div className={`text-sm font-semibold tracking-tight italic ${isActive ? 'text-white' : 'text-slate-500'}`}>
                       {day.title.toUpperCase()}
                     </div>
                   </div>
@@ -324,7 +324,7 @@ const App = () => {
                <span className="w-2 h-2 rounded-full bg-cyan-500 animate-pulse" />
                INDEXING_MODULE_0{activeDayId}
             </div>
-            <h2 className="text-6xl font-bold tracking-tighter neon-text uppercase leading-none">
+            <h2 className="text-6xl font-bold tracking-tighter neon-text uppercase leading-none italic">
               {activeDay.title}
             </h2>
             <div className="flex flex-wrap gap-4 pt-4 justify-center md:justify-start">
