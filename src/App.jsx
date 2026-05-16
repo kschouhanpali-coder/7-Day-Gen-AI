@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 /**
  * GENATIC AI DIARY - CYBERNETIC EXTENDED EDITION
