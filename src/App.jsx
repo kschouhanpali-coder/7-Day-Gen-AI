@@ -12,7 +12,7 @@ const DAYS = [
     title: "Neural Foundations",
     emoji: "🧠",
     topic: "LLM Fundamentals",
-    image: "./images/day1.png",
+    image: "images/day1.png",
     summary: `Generative Artificial Intelligence represents a paradigm shift in how we interact with technology. Unlike traditional AI, which is designed to categorize or predict based on existing data, Gen AI creates entirely new content—from prose and poetry to code and cinematic visuals. At its heart lie Large Language Models (LLMs), massive neural networks trained on the breadth of human knowledge. These models function by mapping the relationship between words (tokens) in a multi-dimensional semantic space, allowing them to predict the next word in a sequence with startling accuracy. This process, known as 'Inference', is what powers the human-like dialogue we see in modern chatbots.`,
     advantages: ["Rapid content generation at scale", "Democratization of complex technical skills", "Infinite variety in creative outputs", "24/7 availability for technical support"],
     disadvantages: ["Propensity for 'hall-ucinations' (false info)", "Significant computational and energy costs", "Inherent bias in training data", "Lack of true 'common sense' or world model"],
@@ -269,7 +269,10 @@ const App = () => {
   // Helper to get correct image path for GitHub Pages
   const getImagePath = (path) => {
     const base = import.meta.env.BASE_URL;
-    return `${base}${path}`;
+    // Ensure base ends with slash and path doesn't start with slash
+    const cleanBase = base.endsWith('/') ? base : `${base}/`;
+    const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+    return `${cleanBase}${cleanPath}`;
   };
 
   return (
