@@ -1,38 +1,45 @@
-# 7-Day Generative AI Masterclass
+# Genetic AI Diary
 
-This repository contains the source code for the **7-Day Generative AI Masterclass** platform.
+Genetic AI Diary is an interactive, dark-themed educational web app that explores AI concepts through 7 structured nodes — from Neural Foundations to Production Scale. Each node covers capabilities, vulnerabilities, tools, and real-world use cases, making complex AI topics like RAG, fine-tuning, and agentic systems easy to navigate and understand.
 
-## 🚀 Overview
-A futuristic, high-fidelity learning platform designed to take you from zero to expert in Generative AI in just one week.
+## Nodes
 
-## 🛠️ Tech Stack
-- **Frontend**: React.js + Vite
-- **Styling**: Vanilla CSS (Cybernetic & Futuristic Theme)
-- **Icons**: Custom SVG icons
-- **Deployment Ready**: Fully responsive and optimized for production.
+- **NODE_01 — Neural Foundations** — Core AI/LLM concepts, capabilities & vulnerabilities
+- **NODE_02 — Instructional Design** — How AI is used in learning and content creation
+- **NODE_03 — Knowledge Retrieval** — RAG (Retrieval-Augmented Generation) and vector search
+- **NODE_04 — Deep Adaptation** — Fine-tuning models for specialized domains
+- **NODE_05 — Agentic Autonomy** — AI agents and autonomous task execution
+- **NODE_06 — Sensory Fusion** — Multimodal AI and sensory data integration
+- **NODE_07 — Production Scale** — Deploying AI systems at scale
 
-## 📅 Curriculum
-- **Day 1**: Foundations & Architecture
-- **Day 2**: Large Language Models (LLMs)
-- **Day 3**: Image & Video Synthesis
-- **Day 4**: Agentic Frameworks
-- **Day 5**: Fine-tuning & Optimization
-- **Day 6**: Enterprise Solutions
-- **Day 7**: Future Horizons & Projects
+## Industry Tools Covered
 
-## ⚙️ Setup & Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/kschouhanpali-coder/7-Day-Gen-AI.git
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
+ChatGPT, Gemini, Claude, Llama 3, Mistral, Hugging Face, OpenAI Fine-tuning, Together AI, Anyscale, Weights & Biases, Predibase, and more.
 
-## 📄 License
-This project is for educational purposes.
+## Features
+
+- Dark-themed futuristic UI with a system-interface aesthetic
+- Node-based navigation for structured learning
+- Capabilities vs. Vulnerabilities breakdown per topic
+- Sector deployment use cases for each AI technique
+- Operational data logs with real prompt/response examples
+- Taxonomy nodes with key terminology definitions
+
+## Tech Stack
+
+- Frontend: React / Next.js
+- Styling: Tailwind CSS (dark theme)
+- Local dev server: localhost:5173
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+*V_FINAL_X — ARCHIVE_MODE: ENABLED*
