@@ -2,6 +2,12 @@
 
 Genetic AI Diary is an interactive, dark-themed educational web app that explores AI concepts through 7 structured nodes — from Neural Foundations to Production Scale. Each node covers capabilities, vulnerabilities, tools, and real-world use cases, making complex AI topics like RAG, fine-tuning, and agentic systems easy to navigate and understand.
 
+## 🚀 Live Demo
+
+**👉 [https://7daygenai.netlify.app/](https://7daygenai.netlify.app/)**
+
+---
+
 ## Nodes
 
 - **NODE_01 — Neural Foundations** — Core AI/LLM concepts, capabilities & vulnerabilities
