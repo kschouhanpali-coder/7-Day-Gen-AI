@@ -43,9 +43,6 @@ ChatGPT, Gemini, Claude, Llama 3, Mistral, Hugging Face, OpenAI Fine-tuning, Tog
 npm install
 npm run dev
 ```
-
-Open [http://localhost:5173](http://localhost:5173) in your browser.
-
 ---
 
 *V_FINAL_X — ARCHIVE_MODE: ENABLED*
